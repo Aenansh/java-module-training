@@ -1,4 +1,4 @@
-package abstraction;
+package com.caeliusconsulting.abstraction;
 
 import java.util.List;
 import java.util.ArrayList;

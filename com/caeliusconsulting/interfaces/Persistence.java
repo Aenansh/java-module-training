@@ -1,4 +1,4 @@
-package interfaces;
+package com.caeliusconsulting.interfaces;
 
 import java.util.Collection;
 import java.util.List;

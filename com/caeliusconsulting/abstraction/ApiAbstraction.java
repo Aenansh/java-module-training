@@ -1,4 +1,4 @@
-package abstraction;
+package com.caeliusconsulting.abstraction;
 
 abstract class Api {
   static public String version = "v1";

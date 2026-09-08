@@ -1,4 +1,4 @@
-package interfaces;
+package com.caeliusconsulting.interfaces;
 
 class OAuth implements Auth {
   private String userId;

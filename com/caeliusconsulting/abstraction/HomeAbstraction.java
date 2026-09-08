@@ -1,4 +1,4 @@
-package abstraction;
+package com.caeliusconsulting.abstraction;
 
 abstract class SmartHomeController {
   protected final String devicedId;
