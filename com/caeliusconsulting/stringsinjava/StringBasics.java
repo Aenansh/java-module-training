@@ -18,5 +18,8 @@ public class StringBasics {
     s2 = "Vasu";
     System.out.println(s2);
     System.out.println(s3);
+
+    StringBuffer s4 = new StringBuffer("Aenansh");
+    System.out.println(s4.capacity());
   } 
 }

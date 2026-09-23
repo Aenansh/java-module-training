@@ -1,6 +1,6 @@
 package exceptions;
 
-public abstract class ElevatorException extends Exception {
+public class ElevatorException extends Exception {
 
   protected ElevatorException(String message) {
     super(message);

@@ -1,6 +1,6 @@
 package exceptions;
 
-public abstract class ElevatorRuntimeException extends RuntimeException {
+public class ElevatorRuntimeException extends RuntimeException {
 
   protected ElevatorRuntimeException(String message) {
     super(message);

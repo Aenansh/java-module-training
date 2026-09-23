@@ -36,6 +36,7 @@ public abstract class Vehicle implements Movable, Openable {
   }
 
   protected void simulateMotorTravel(int targetFloor) {
+    System.out.println("Elevator is moving to floor " + targetFloor);
   }
 
   protected abstract void validateFloor(int floor) throws InvalidFloorException;

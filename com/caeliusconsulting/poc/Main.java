@@ -53,7 +53,7 @@ public class Main {
     Request overloadedRequest = new Request.Builder()
         .floor(2)
         .direction(Direction.UP)
-        .estimatedLoadKg(5000) // exceeds every car's capacity
+        .estimatedLoadKg(5000)
         .build();
     dispatcher.dispatch(overloadedRequest);
 
@@ -82,7 +82,7 @@ public class Main {
         new Request.Builder().floor(7).direction(Direction.UP).estimatedLoadKg(80).build(),
         new Request.Builder().floor(2).direction(Direction.DOWN).estimatedLoadKg(60).build(),
         new Request.Builder().floor(12).direction(Direction.UP).estimatedLoadKg(150).build(),
-        new Request.Builder().floor(-1).direction(Direction.UP).estimatedLoadKg(400).build() // freight-range
+        new Request.Builder().floor(-1).direction(Direction.UP).estimatedLoadKg(400).build()
     );
     for (Request r : batch) {
       dispatcher.dispatch(r);
